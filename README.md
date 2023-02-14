@@ -1,4 +1,4 @@
-#Error executing lua callback: /snap/nvim/2789/usr/share/nvim/runtime/filetype.lua:22 Nvim Configuration with Lua
+# Nvim configuration with lua
 
 ## Installation instructions
 
