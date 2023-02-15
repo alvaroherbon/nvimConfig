@@ -104,6 +104,15 @@ return packer.startup(function(use)
 	--github copilot
 	use("github/copilot.vim")
 
+	--terminal plugin
+	use({
+		"akinsho/toggleterm.nvim",
+		tag = "*",
+		config = function()
+			require("toggleterm").setup()
+		end,
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
