@@ -47,3 +47,6 @@ keymap.set("n", "<leader>gc", ":Git commit<CR>")
 keymap.set("n", "<leader>gs", ":Git status<CR>")
 keymap.set("n", "<leader>gP", ":Git push<CR>")
 keymap.set("n", "<leader>gp", ":Git pull<CR>")
+
+--terminal
+keymap.set("n", "<leader>tt", ":ToggleTerm<CR>")
