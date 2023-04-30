@@ -29,10 +29,11 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>")
 keymap.set("n", "<leader>tl", ":tabn<CR>")
 
 -- go to previous tab
-keymap.set("n", "<leader>th", ":tabn<CR>")
+keymap.set("n", "<leader>th", ":tabp<CR>")
 
 --nvim tree
 keymap.set("n", "<leader>ft", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>fo", ":NvimTreeFocus<CR>")
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
