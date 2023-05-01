@@ -1,5 +1,7 @@
 local opt = vim.opt
 
+local home = os.getenv("HOME")
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
@@ -45,5 +47,6 @@ vim.g.startify_lists = {
 vim.g.startify_bookmarks = {
 	{ c = "~/.config/nvim/init.lua" },
 	{ z = "~/.zshrc" },
-	{ p = "~/Escritorio/Programacion/" },
+	{ p = "~/Desktop/Programación/myPortfolio/" },
+	{ t = "~/Desktop/Programación/Aedo-Web/" },
 }
